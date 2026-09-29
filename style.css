@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #120d0e;
-  color: #ffffff;
+  background-color: antiquewhite;
+  color: azure;
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,6 +16,15 @@ body {
   padding: 20px;
 }
 
+.layout-wrapper {
+  width: 100%;
+  max-width: 800px;
+  border: 4px solid darkolivegreen;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
 span {
   text-transform: uppercase;
@@ -24,31 +33,25 @@ span {
   letter-spacing: 1px;
 }
 
-
 header {
   width: 100%;
-  max-width: 800px;
   height: 60px;
-  background-color: #3b2d2f;
+  background-color: darkolivegreen;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
 }
-
 
 .section1 {
   width: 100%;
-  max-width: 800px;
   display: flex;
   gap: 15px;
-  margin-bottom: 15px;
 }
 
 .section1 > main {
   flex: 1;
   height: 150px;
-  background-color: #3b2d2f;
+  background-color: darkolivegreen;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,41 +59,33 @@ header {
 
 .section1 > div {
   flex: 1;
-  background-color: #2a2022;
-  padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
 }
-
 
 .section1 > div > div {
-  background-color: #3b2d2f;
-  height: 40px;
+  background-color: darkolivegreen;
+  height: 67.5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-body > main {
+.layout-wrapper > main {
   width: 100%;
-  max-width: 800px;
   height: 100px;
-  background-color: #3b2d2f;
+  background-color: darkolivegreen;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
 }
-
 
 footer {
   width: 100%;
-  max-width: 800px;
   height: 60px;
-  background-color: #3b2d2f;
+  background-color: darkolivegreen;
   display: flex;
   justify-content: center;
   align-items: center;
